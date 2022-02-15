@@ -1,0 +1,16 @@
+.top_component{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    color: #fff;
+    font-size: 50px !important;
+    font-family: 'Covered By Your Grace', cursive !important;
+}
+
+.logo span{
+    color: rgb(255, 175, 4);
+    font-family: 'Oleo Script', cursive;
+}
