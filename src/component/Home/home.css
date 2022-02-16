@@ -18,7 +18,7 @@
     outline: none;
 }
 
-.home_search input{
+.home_search button{
     padding: 1%;
     border-left: 0ch;
     height: 55px;

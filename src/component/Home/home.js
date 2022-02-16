@@ -7,14 +7,7 @@ function home() {
   return <div>
       <Nav_bar/>
       <Container>
-      <form className='home_search'>
-  <label>
-    <input type="text" name="name" />
-  </label>
-  <input type="submit" value="Search"></input>
-</form>
       </Container>
-   
       <Free_software/>
   </div>;
 }
