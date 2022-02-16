@@ -21,7 +21,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 2%;
     margin-top: 2% !important;
 }
@@ -32,6 +32,10 @@ a{
     justify-content: center;
     /* margin: auto; */
     margin-top: 2%;
+    background: black;
+    border: navajowhite;
+    color: white;
+    padding: 6px 15px;
 }
 
 .component_single p{
@@ -63,4 +67,8 @@ a{
 
 .main_part_single button{
     margin: 3%;
+}
+
+.free_soft_container{
+    background-color: rgba(236, 236, 236, 0.644);
 }

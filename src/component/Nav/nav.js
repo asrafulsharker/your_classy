@@ -24,6 +24,7 @@ function nav() {
       </NavDropdown>
     </Nav>
     <Nav>
+    <Nav.Link href="/">Request</Nav.Link>
       <Nav.Link href="#deets">About Us</Nav.Link>
     </Nav>
   </Navbar.Collapse>

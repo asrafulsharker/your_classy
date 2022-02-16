@@ -1,0 +1,17 @@
+*{
+    font-weight: bold;
+}
+
+.App{
+    background-image: url(./img/cover1.jpg);
+    background-color: #cccccc; /* Used if the image is unavailable */
+     /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 8;
+    height: 100%;
+}

@@ -4,7 +4,7 @@ import Free_software from '../Free_software/free_software';
 import Nav_bar from '../Nav/nav'
 import './home.css'
 function home() {
-  return <div>
+  return <div className='home'>
       <Nav_bar/>
       <Container>
       </Container>

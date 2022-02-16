@@ -8,7 +8,7 @@ const Data={
                 name: "Node JS",
                 slug:"node_js",
                 type:"Version Control System",
-                download_link: "https://www.javatpoint.com/nodejs-tutorial",
+                download_link: "https://nodejs.org/dist/v16.14.0/node-v16.14.0-x64.msi",
                 discription: "Node.js tutorial provides basic and advanced concepts of Node.js. Our Node.js tutorial is designed for beginners and professionals both.Node.js is a cross-platform environment and library for running JavaScript applications which is used to create networking and server-side applications.Our Node.js tutorial includes all topics of Node.js such as Node.js installation on windows and linux, REPL, package manager, callbacks, event loop, os, path, query string, cryptography, debugger, URL, DNS, Net, UDP, process, child processes, buffers, streams, file systems, global objects, web modules etc. There are also given Node.js interview questions to help you better understand the Node.js technology.",
                 extras: [
                     "Plush pillows and breathable bed linens",
@@ -25,7 +25,7 @@ const Data={
                 _id:'2',
                 name: "VS Code",
                 slug:"vs_code",
-                download_link: "https://www.javatpoint.com/nodejs-tutorial",
+                download_link: "https://az764295.vo.msecnd.net/stable/f80445acd5a3dadef24aa209168452a3d97cc326/VSCodeUserSetup-x64-1.64.2.exe",
                 discription: "Node.js tutorial provides basic and advanced concepts of Node.js. Our Node.js tutorial is designed for beginners and professionals both.Node.js is a cross-platform environment and library for running JavaScript applications which is used to create networking and server-side applications.Our Node.js tutorial includes all topics of Node.js such as Node.js installation on windows and linux, REPL, package manager, callbacks, event loop, os, path, query string, cryptography, debugger, URL, DNS, Net, UDP, process, child processes, buffers, streams, file systems, global objects, web modules etc. There are also given Node.js interview questions to help you better understand the Node.js technology.",
                 extras: [
                     "Plush pillows and breathable bed linens",
@@ -42,7 +42,7 @@ const Data={
                 _id:'3',
                 name: "Github",
                 slug:"github",
-                download_link: "https://www.javatpoint.com/nodejs-tutorial",
+                download_link: "https://central.github.com/deployments/desktop/desktop/latest/win32",
                 discription: "Node.js tutorial provides basic and advanced concepts of Node.js. Our Node.js tutorial is designed for beginners and professionals both.Node.js is a cross-platform environment and library for running JavaScript applications which is used to create networking and server-side applications.Our Node.js tutorial includes all topics of Node.js such as Node.js installation on windows and linux, REPL, package manager, callbacks, event loop, os, path, query string, cryptography, debugger, URL, DNS, Net, UDP, process, child processes, buffers, streams, file systems, global objects, web modules etc. There are also given Node.js interview questions to help you better understand the Node.js technology.",
                 extras: [
                     "Plush pillows and breathable bed linens",
@@ -58,7 +58,7 @@ const Data={
             {
                 _id:'4',
                 name: "Git",
-                download_link: "https://www.javatpoint.com/nodejs-tutorial",
+                download_link: "https://git-scm.com/download/win",
                 discription: "Node.js tutorial provides basic and advanced concepts of Node.js. Our Node.js tutorial is designed for beginners and professionals both.Node.js is a cross-platform environment and library for running JavaScript applications which is used to create networking and server-side applications.Our Node.js tutorial includes all topics of Node.js such as Node.js installation on windows and linux, REPL, package manager, callbacks, event loop, os, path, query string, cryptography, debugger, URL, DNS, Net, UDP, process, child processes, buffers, streams, file systems, global objects, web modules etc. There are also given Node.js interview questions to help you better understand the Node.js technology.",
                 extras: [
                     "Plush pillows and breathable bed linens",

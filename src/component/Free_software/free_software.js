@@ -29,7 +29,7 @@ const Free_software =() =>{
   return (
     <div>
 
-    <Container>
+    <Container className='free_soft_container'>
         <div className='main_component'>
         <div className='main_mid'>
         <form className='home_search'>
