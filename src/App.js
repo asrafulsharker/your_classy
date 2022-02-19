@@ -7,6 +7,7 @@ import Single from './component/Free_software/single_tab';
 import Data from './component/Free_software/data';
 import ClassRecord from './component/Class_Record/class_record';
 import DBMSRecord from './component/Class_Record/DBMS/dbms_recording';
+import DBMSDetails from './component/Class_Record/DBMS/details_dbms';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router,Switch , Route} from "react-router-dom";
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" exact component={Home}/>
           <Route path="/class_record" exact component={ClassRecord}/>
           <Route path="/dbms_recording" exact component={DBMSRecord}/>
+          <Route path="/dbms_details" exact component={DBMSDetails}/>
         </Switch>
 
        

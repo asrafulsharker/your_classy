@@ -72,3 +72,29 @@ a{
 .free_soft_container{
     background-color: rgba(236, 236, 236, 0.644);
 }
+
+
+
+.mid_portion .main_mid h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.for_mid h3,h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.for_mid h5{
+    margin-bottom: 2%
+}
+.single_link{
+    display: flex;
+}
+.single_link a{
+    margin-right: 10px;
+}

@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
-import Data from './data_dbms_recording';
-import ReactPlayer from 'react-player';
-import Nav from '../../Nav/nav'
+import Data from './data_details_dbms';
+import Nav from '../../Nav/nav';
 import '../../Free_software/free_software.css';
 import { Container,Col, Row } from 'react-bootstrap';
 // import Single_tab from './single_tab';
-const Free_software =() =>{
+const Dbms_details =() =>{
 
 
   const [filter, setFilter] = useState('');
@@ -15,7 +14,7 @@ const Free_software =() =>{
   const loadmore = () =>{
     setnoOfElement(noOfElement + noOfElement);
   }
-  let slice = Data.recorddbms.slice(0, noOfElement);
+  let slice = Data.details.slice(0, noOfElement);
 
 
 
@@ -23,7 +22,7 @@ const Free_software =() =>{
     setFilter(event.target.value);
   }
 
-  let dataSearch = Data.recorddbms.filter(item =>{
+  let dataSearch = Data.details.filter(item =>{
     return Object.keys(item).some(key =>
       item[key].toString().toLowerCase().includes(filter.toString().toLowerCase())
       )
@@ -31,10 +30,9 @@ const Free_software =() =>{
   return (
     <div>
 <Nav/>
-    <Container className='free_soft_container mid_portion'>
+    <Container className='free_soft_container'>
         <div className='main_component'>
         <div className='main_mid'>
-        <h1>DBMS 311 & 312 Class Record</h1>
         <form className='home_search'>
           <label>
             <input type="text" 
@@ -46,13 +44,12 @@ const Free_software =() =>{
           </label>
           <button type="" value="Search" className=''>Search</button>
         </form>
-        
         {/* {slice.map((software)=>{ */}
     {dataSearch.map((software )=>(
       // <a href={`/software/${software._id}`}>
-            <Row key={software._id} className='component_single for_mid'>
+            <Row key={software._id} className='component_single'>
                 
-                    {/* <Col md={3}>
+                    <Col md={3}>
                         <img className='single_component_img' 
                         src={software.image}
                         alt={software.name}
@@ -62,12 +59,9 @@ const Free_software =() =>{
                         <h3>{software.name}</h3>
                         <p className='single_component_name'>{software.type}</p>
                         <p className='single_component_details'>{software.discription}</p>
-                        <a href={software.download_link}><button>See Recording</button></a>
-                    </Col> */}
-                 
-              <h3>{software.name}</h3>
-              <h5>{software.date}</h5>
-              <ReactPlayer  controls url={software.download_link}/>
+                        <a href={software.download_link}><button>Download PDF</button></a>
+                    </Col>
+              
             </Row>
             // </a>
     ))
@@ -82,4 +76,4 @@ const Free_software =() =>{
   );
 }
 
-export default Free_software;
+export default Dbms_details;

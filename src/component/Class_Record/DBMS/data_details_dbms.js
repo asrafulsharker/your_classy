@@ -1,15 +1,14 @@
-import DBMS from './DBMS/dbms_recording';
-const recordData={
+const detailsData={
 
     
-    records:[
+    details:[
         {
             _id:'1',
             name: "DBMS",
             slug:"node_js",
             type:"Database Management System",
             download_link: "/dbms_recording",
-            details_link: "/dbms_details",
+            details_link: "/dbms_recording",
             discription: "Node.js tutorial provides basic and advanced concepts of Node.js. Our Node.js tutorial is designed for beginners and professionals both.Node.js is a cross-platform environment and library for running JavaScript applications which is used to create networking and server-side applications.Our Node.js tutorial includes all topics of Node.js such as Node.js installation on windows and linux, REPL, package manager, callbacks, event loop, os, path, query string, cryptography, debugger, URL, DNS, Net, UDP, process, child processes, buffers, streams, file systems, global objects, web modules etc. There are also given Node.js interview questions to help you better understand the Node.js technology.",
             extras: [
                 "Plush pillows and breathable bed linens",
@@ -107,4 +106,4 @@ const recordData={
         },
     ],
 };
-export  default recordData;
+export  default detailsData;
